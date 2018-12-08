@@ -6,7 +6,7 @@ import Kitab from '../Container/Kitab';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 
-class App extends Component {
+class Switcher extends Component {
     state={
         page : "Home"
     }
@@ -56,4 +56,4 @@ class App extends Component {
             }
 }
 
-export default App;
+export default Switcher;
